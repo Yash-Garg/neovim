@@ -1,5 +1,4 @@
-{ lib, ... }:
-{
+_: {
   plugins.telescope = {
     enable = true;
     extensions = {

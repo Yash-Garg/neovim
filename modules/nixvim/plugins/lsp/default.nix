@@ -1,5 +1,4 @@
-{ lib, ... }:
-{
+_: {
   plugins.lsp = {
     enable = true;
     inlayHints = true;

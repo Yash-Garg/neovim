@@ -1,5 +1,4 @@
-{ lib, ... }:
-{
+_: {
   autoCmd = [
     {
       # Show diagnostic window when cursor is over warning/error

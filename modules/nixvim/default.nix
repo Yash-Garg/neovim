@@ -5,11 +5,6 @@
   ...
 }:
 {
-  imports = [
-    ./keymaps.nix
-    ./options.nix
-  ];
-
   colorschemes.rose-pine = {
     enable = true;
     settings = {
@@ -24,6 +19,4 @@
 
   viAlias = true;
   vimAlias = true;
-
-  # programs.tmux.plugins = [ pkgs.tmuxPlugins.vim-tmux-navigator ];
 }

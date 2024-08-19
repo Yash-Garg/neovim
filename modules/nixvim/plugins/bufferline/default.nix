@@ -1,5 +1,4 @@
-{ lib, ... }:
-{
+_: {
   plugins.bufferline = {
     enable = false;
     settings.options = {

@@ -1,5 +1,4 @@
-{ lib, ... }:
-{
+_: {
   plugins.lualine = {
     enable = true;
     componentSeparators = {

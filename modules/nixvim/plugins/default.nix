@@ -1,17 +1,5 @@
 { lib, ... }:
 {
-  imports = [
-    ./alpha.nix
-    ./bufferline.nix
-    ./completion.nix
-    ./devicons.nix
-    ./lsp.nix
-    ./lualine.nix
-    ./nvim-tree.nix
-    ./telescope.nix
-    ./treesitter.nix
-  ];
-
   plugins = {
     comment.enable = true;
     gitsigns = {

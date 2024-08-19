@@ -1,5 +1,4 @@
-{ lib, ... }:
-{
+_: {
   plugins.nvim-tree = {
     enable = true;
     autoClose = true;
