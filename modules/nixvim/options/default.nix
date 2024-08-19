@@ -1,6 +1,4 @@
-_:
-
-{
+_: {
   opts = {
     mouse = "";
     number = true;
