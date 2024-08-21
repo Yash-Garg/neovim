@@ -23,22 +23,9 @@ with lib;
             # fix Y behaviour
             Y = "y$";
 
-            # back and fourth between the two most recent files
-            "<leader><leader>" = ":b#<CR>";
-
-            # close by Ctrl+x
-            "<C-x>" = ":close<CR>";
-
-            # save by Ctrl+s
-            "<C-s>" = ":w<CR>";
-
-            # navigate to left/right window
-            "<leader>h" = "<C-w>h";
-            "<leader>l" = "<C-w>l";
-
-            # Press 'H', 'L' to jump to start/end of a line (first/last character)
-            L = "$";
-            H = "^";
+            # Jump to start/end of a line (first/last character)
+            "<leader>h" = "^";
+            "<leader>l" = "$";
           };
       visual =
         mapAttrsToList

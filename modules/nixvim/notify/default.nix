@@ -1,9 +1,11 @@
 {
   plugins.notify = {
     enable = true;
-
-    level = 2;
-    topDown = false;
+    backgroundColour = "#000000";
+    fps = 60;
+    render = "default";
+    timeout = 1000;
+    topDown = true;
     maxWidth = 400;
   };
 }
