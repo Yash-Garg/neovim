@@ -1,6 +1,7 @@
 # Neovim
 
-[![FlakeHub](https://img.shields.io/endpoint?url=https://flakehub.com/f/Yash-Garg/neovim/badge)](https://flakehub.com/flake/Yash-Garg/neovim)
+[![FlakeHub](https://img.shields.io/endpoint?url=https://flakehub.com/f/Yash-Garg/neovim/badge)](https://flakehub.com/flake/Yash-Garg/neovim) [![Nix](https://img.shields.io/badge/Nix-5277C3.svg?&logo=NixOS&logoColor=white)](#)
+
 
 Customized Neovim configuration ready to be used with Nix.
 
