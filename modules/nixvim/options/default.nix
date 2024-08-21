@@ -1,4 +1,4 @@
-_: {
+{
   opts = {
     mouse = "";
     number = true;

@@ -1,4 +1,4 @@
-_: {
+{
   autoCmd = [
     {
       # Show diagnostic window when cursor is over warning/error
@@ -71,6 +71,7 @@ _: {
         ];
 
         sources = [
+          { name = "copilot"; }
           { name = "buffer"; }
           { name = "luasnip"; }
           { name = "nvim_lsp"; }
@@ -87,27 +88,13 @@ _: {
     cmp-nvim-lua.enable = true;
     cmp-path.enable = true;
     cmp_luasnip.enable = true;
+    copilot-cmp.enable = true;
     friendly-snippets.enable = true;
     luasnip = {
       enable = true;
       settings = {
         enable_autosnippets = true;
         store_selection_keys = "<Tab>";
-      };
-    };
-    lspkind = {
-      enable = true;
-      cmp = {
-        enable = true;
-        ellipsisChar = "...";
-        maxWidth = 30;
-        menu = {
-          buffer = "[Buffer]";
-          nvim_lsp = "[LSP]";
-          luasnip = "[LuaSnip]";
-          nvim_lua = "[Lua]";
-          path = "[Path]";
-        };
       };
     };
     lsp-status.enable = true;

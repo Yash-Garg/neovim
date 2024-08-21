@@ -1,4 +1,4 @@
-_: {
+{
   plugins.lsp = {
     enable = true;
     inlayHints = true;
@@ -27,6 +27,18 @@ _: {
         enable = true;
         installCargo = true;
         installRustc = true;
+        settings = {
+          diagnostics = {
+            enable = true;
+            styleLints.enable = true;
+          };
+
+          files = {
+            excludeDirs = [ ".direnv/" ];
+          };
+
+          procMacro.enable = true;
+        };
       };
       sqls.enable = true;
       svelte.enable = true;

@@ -1,4 +1,4 @@
-_: {
+{
   plugins.bufferline = {
     enable = false;
     settings.options = {

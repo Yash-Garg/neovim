@@ -1,4 +1,4 @@
-_: {
+{
   plugins.alpha = {
     enable = true;
     iconsEnabled = true;

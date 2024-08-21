@@ -1,4 +1,3 @@
-{ lib, pkgs, ... }:
 {
   imports = [ ./keymaps.nix ];
 
