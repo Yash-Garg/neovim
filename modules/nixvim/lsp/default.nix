@@ -10,6 +10,7 @@
       cssls.enable = true;
       dartls.enable = true;
       docker-compose-language-service.enable = true;
+      eslint.enable = true;
       gleam.enable = true;
       golangci-lint-ls.enable = true;
       gopls.enable = true;
