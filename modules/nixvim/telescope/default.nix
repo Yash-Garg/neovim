@@ -22,7 +22,7 @@
           desc = "Grep (root dir)";
         };
       };
-      "<space><leader>" = {
+      "<leader><space>" = {
         action = "buffers";
         options = {
           desc = "+buffer";

@@ -11,7 +11,8 @@
     };
   };
 
-  highlightOverride = {
-    LspInlayHint.link = "Comment";
+  highlightOverride.LspInlayHint = {
+    bg = "";
+    fg = "#615e75";
   };
 }

@@ -1,5 +1,15 @@
+{ pkgs, ... }:
 {
   imports = [ ./keymaps.nix ];
+
+  extraPlugins = with pkgs.vimPlugins; [
+    {
+      plugin = hardtime-nvim;
+      config = ''
+        lua require("hardtime").setup()
+      '';
+    }
+  ];
 
   plugins = {
     nix.enable = true;
