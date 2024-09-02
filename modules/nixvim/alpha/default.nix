@@ -1,7 +1,6 @@
 {
   plugins.alpha = {
     enable = true;
-    iconsEnabled = true;
     theme.__raw = ''
       (function()
         local dashboard = require("alpha.themes.startify")
