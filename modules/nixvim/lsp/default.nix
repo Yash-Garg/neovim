@@ -44,7 +44,7 @@
       sqls.enable = true;
       svelte.enable = true;
       tailwindcss.enable = true;
-      tsserver = {
+      ts-ls = {
         enable = true;
         filetypes = [
           "javascript"
