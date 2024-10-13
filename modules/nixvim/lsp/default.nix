@@ -22,7 +22,6 @@
       lua-ls.enable = true;
       marksman.enable = true;
       nixd.enable = true;
-      prismals.enable = true;
       ruff.enable = true;
       rust-analyzer = {
         enable = true;
