@@ -1,59 +1,64 @@
 {
   plugins.lualine = {
     enable = true;
-    componentSeparators = {
-      left = "│";
-      right = "│";
+
+    settings = {
+      inactive_sections = {
+        lualine_a = [ "filename" ];
+        lualine_b = [ ];
+        lualine_c = [ ];
+        lualine_x = [ ];
+        lualine_y = [ ];
+        lualine_z = [ "location" ];
+      };
+      options = {
+        component_separators = {
+          left = "│";
+          right = "│";
+        };
+        globalstatus = true;
+        section_separators = {
+          left = "";
+          right = "";
+        };
+      };
+      sections = {
+        lualine_a = [
+          {
+            name = "mode";
+            padding = {
+              left = 1;
+              right = 2;
+            };
+            separator.left = "";
+          }
+        ];
+        lualine_b = [
+          {
+            name = "filename";
+            padding = {
+              left = 2;
+              right = 1;
+            };
+          }
+          "branch"
+        ];
+        lualine_c = [ "%=" ];
+        lualine_x = [ "" ];
+        lualine_y = [
+          "filetype"
+          "progress"
+        ];
+        lualine_z = [
+          {
+            name = "location";
+            separator.right = "";
+          }
+        ];
+      };
+      tabline = { };
+      winbar = { };
     };
-    globalstatus = true;
-    inactiveSections = {
-      lualine_a = [ "filename" ];
-      lualine_b = [ ];
-      lualine_c = [ ];
-      lualine_x = [ ];
-      lualine_y = [ ];
-      lualine_z = [ "location" ];
-    };
-    sections = {
-      lualine_a = [
-        {
-          name = "mode";
-          padding = {
-            left = 1;
-            right = 2;
-          };
-          separator.left = "";
-        }
-      ];
-      lualine_b = [
-        {
-          name = "filename";
-          padding = {
-            left = 2;
-            right = 1;
-          };
-        }
-        "branch"
-      ];
-      lualine_c = [ "%=" ];
-      lualine_x = [ "" ];
-      lualine_y = [
-        "filetype"
-        "progress"
-      ];
-      lualine_z = [
-        {
-          name = "location";
-          separator.right = "";
-        }
-      ];
-    };
-    sectionSeparators = {
-      left = "";
-      right = "";
-    };
-    tabline = { };
-    winbar = { };
   };
 
   extraConfigLuaPost = ''

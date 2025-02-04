@@ -9,21 +9,21 @@
       cmake.enable = true;
       cssls.enable = true;
       dartls.enable = true;
-      docker-compose-language-service.enable = true;
+      docker_compose_language_service.enable = true;
       eslint.enable = true;
       gleam.enable = true;
-      golangci-lint-ls.enable = true;
+      golangci_lint_ls.enable = true;
       gopls.enable = true;
       graphql.enable = true;
-      helm-ls.enable = true;
+      helm_ls.enable = true;
       html.enable = true;
       jsonls.enable = true;
-      kotlin-language-server.enable = true;
-      lua-ls.enable = true;
+      kotlin_language_server.enable = true;
+      lua_ls.enable = true;
       marksman.enable = true;
       nixd.enable = true;
       ruff.enable = true;
-      rust-analyzer = {
+      rust_analyzer = {
         enable = true;
         installCargo = true;
         installRustc = true;
@@ -43,7 +43,7 @@
       sqls.enable = true;
       svelte.enable = true;
       tailwindcss.enable = true;
-      ts-ls = {
+      ts_ls = {
         enable = true;
         filetypes = [
           "javascript"

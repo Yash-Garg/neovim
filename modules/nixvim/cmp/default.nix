@@ -44,11 +44,13 @@
           "<C-p>" = "cmp.mapping.select_prev_item()";
           "<C-d>" = "cmp.mapping.scroll_docs(-4)";
           "<C-f>" = "cmp.mapping.scroll_docs(4)";
-          "<CR>" = "cmp.mapping.confirm {
+          "<CR>" =
+            "cmp.mapping.confirm {
 								behavior = cmp.ConfirmBehavior.Replace,
 								select = true,
 							}";
-          "<Tab>" = "cmp.mapping(function(fallback)
+          "<Tab>" =
+            "cmp.mapping(function(fallback)
 								if cmp.visible() then
 									cmp.select_next_item()
 								elseif luasnip.expand_or_locally_jumpable() then

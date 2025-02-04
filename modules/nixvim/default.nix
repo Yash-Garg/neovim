@@ -12,9 +12,9 @@
   ];
 
   plugins = {
+    colorizer.enable = true;
     nix.enable = true;
     nix-develop.enable = true;
-    nvim-colorizer.enable = true;
   };
 
   viAlias = true;

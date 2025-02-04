@@ -1,5 +1,7 @@
 { pkgs, ... }:
 {
+  plugins.web-devicons.enable = true;
+
   extraPlugins = with pkgs.vimPlugins; [ nvim-web-devicons ];
 
   extraConfigLuaPost = ''
