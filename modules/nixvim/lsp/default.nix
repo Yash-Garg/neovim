@@ -14,7 +14,6 @@
       gleam.enable = true;
       golangci_lint_ls.enable = true;
       gopls.enable = true;
-      graphql.enable = true;
       helm_ls.enable = true;
       html.enable = true;
       jsonls.enable = true;
