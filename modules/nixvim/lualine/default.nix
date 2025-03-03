@@ -63,14 +63,14 @@
 
   extraConfigLuaPost = ''
     local colors = {
-      blue   = '#80a0ff',
-      cyan   = '#89dceb',
-      black  = '#11111b',
-      green  = '#a6e3a1',
-      white  = '#cdd6f4',
-      red    = '#f38ba8',
-      violet = '#cba6f7',
-      grey   = '#1e1e2e',
+      blue   = '#66d9ef',
+      cyan   = '#a1efe4',
+      black  = '#272822',
+      green  = '#a6e22e',
+      white  = '#f8f8f2',
+      red    = '#f92672',
+      violet = '#ae81ff',
+      grey   = '#3e3d32',
     }
 
     local bubbles_theme = {
