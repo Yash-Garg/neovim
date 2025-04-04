@@ -4,7 +4,7 @@
 
 Customized Neovim configuration ready to be used with Nix.
 
-![Neovim Preview](https://yashgarg.dev/uses/neovim.png)
+![Neovim Preview](https://yashgarg.dev/uses/neovim.webp)
 
 ## Try Without Installing
 
