@@ -1,8 +1,13 @@
 {
-  colorschemes.monokai-pro = {
+  colorschemes.rose-pine = {
     enable = true;
     settings = {
-      transparent_background = true;
+      dark_variant = "moon";
+      styles = {
+        bold = true;
+        italic = false;
+        transparency = true;
+      };
     };
   };
 
