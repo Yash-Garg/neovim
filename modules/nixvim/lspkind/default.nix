@@ -1,7 +1,7 @@
 {
   plugins.lspkind = {
     enable = true;
-    cmp = {
+    settings.cmp = {
       enable = true;
       ellipsisChar = "...";
       maxWidth = 30;
