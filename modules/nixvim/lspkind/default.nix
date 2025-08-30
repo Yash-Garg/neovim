@@ -13,9 +13,9 @@
         nvim_lua = "[Lua]";
         path = "[Path]";
       };
-    };
-    symbolMap = {
-      Copilot = "";
+      symbol_map = {
+        Copilot = "";
+      };
     };
   };
 }
