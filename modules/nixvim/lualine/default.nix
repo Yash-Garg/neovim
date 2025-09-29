@@ -23,24 +23,9 @@
         };
       };
       sections = {
-        lualine_a = [
-          {
-            name = "mode";
-            padding = {
-              left = 1;
-              right = 2;
-            };
-            separator.left = "";
-          }
-        ];
+        lualine_a = [ ''{ "mode", padding = { left = 1, right = 2 }, separator = { left = "" } }'' ];
         lualine_b = [
-          {
-            name = "filename";
-            padding = {
-              left = 2;
-              right = 1;
-            };
-          }
+          ''{ "filename", padding = { left = 2, right = 1 } }''
           "branch"
         ];
         lualine_c = [ "%=" ];
@@ -49,12 +34,7 @@
           "filetype"
           "progress"
         ];
-        lualine_z = [
-          {
-            name = "location";
-            separator.right = "";
-          }
-        ];
+        lualine_z = [ ''{ "location", separator = { right = "" } }'' ];
       };
       tabline = { };
       winbar = { };
