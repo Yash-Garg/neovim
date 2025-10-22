@@ -1,24 +1,26 @@
 {
   plugins.neo-tree = {
     enable = true;
-    enableDiagnostics = true;
-    enableGitStatus = true;
-    enableModifiedMarkers = true;
-    enableRefreshOnWrite = true;
-    closeIfLastWindow = true;
-    popupBorderStyle = "rounded";
-    buffers = {
-      bindToCwd = true;
-      followCurrentFile = {
-        enabled = true;
+    settings = {
+      enableDiagnostics = true;
+      enableGitStatus = true;
+      enableModifiedMarkers = true;
+      enableRefreshOnWrite = true;
+      closeIfLastWindow = true;
+      popupBorderStyle = "rounded";
+      buffers = {
+        bindToCwd = true;
+        followCurrentFile = {
+          enabled = true;
+        };
       };
-    };
-    window = {
-      width = 30;
-      height = 15;
-      autoExpandWidth = true;
-      mappings = {
-        "<space>" = "none";
+      window = {
+        width = 30;
+        height = 15;
+        autoExpandWidth = true;
+        mappings = {
+          "<space>" = "none";
+        };
       };
     };
   };
