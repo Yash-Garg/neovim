@@ -20,7 +20,6 @@
         gitcommit
         gitignore
         git_rebase
-        gleam
         go
         gomod
         gosum
@@ -32,11 +31,8 @@
         javascript
         jq
         json
-        jsonc
         just
-        kdl
         kotlin
-        lua
         make
         markdown
         markdown_inline
@@ -65,11 +61,6 @@
       nixvimInjections = true;
       settings.indent.enable = true;
       settings.highlight.enable = true;
-    };
-
-    treesitter-refactor = {
-      enable = true;
-      highlightDefinitions.enable = true;
     };
   };
 }
